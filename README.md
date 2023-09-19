@@ -3,7 +3,7 @@
 ## 1、 加载数据 ##
 ### 1.1 数据读取 ###
 数据格式有很多，介绍常见的csv,txt,excel以及数据库mysql中的文件读取
-```
+```python
 import pandas as pd
 data = pd.read_csv(r'../filename.csv')	#读取csv文件
 data = pd.read_table(r'../filename.txt')	#读取txt文件
